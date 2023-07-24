@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+ul,
+h1,
+p,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+}
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: #164b60;
+  padding: 20px;
+  border-radius: 0px 0px 0px 5px;
+}
+.menu-item a {
+  text-decoration: none;
+  padding: 20px 10px;
+  background-color: #4fc0d0;
+  border: 3px solid #4fc0d0;
+  display: grid;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+.menu-item a:hover {
+  background-color: #a2ff86;
+  border: 3px solid #5abb3d;
+  color: #000;
+}
+.header {
+  background-color: #1b6b93;
+  min-height: 150px;
+  display: grid;
+  position: relative;
+}
+.header-logo {
+  margin-top: 30px;
+  position: absolute;
+  filter: drop-shadow(0 0 10px #000);
+}
+.header-bg {
+  max-width: 100%;
+  max-height: auto;
+}
+.content {
+  background-color: #e2e2e2;
+  min-height: 300px;
+}
+.content-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content h1 {
+  padding: 20px;
+  color: #676767;
+}
+.content p {
+  padding: 10px 20px;
+  color: #676767;
+  line-height: 1.4;
+}
+.tabela {
+  margin: 20px;
+  text-align: left;
+  border-collapse: collapse;
+}
+.tabela thead {
+  background-color: #676767;
+  color: #ffffff;
+}
+.tabela td {
+  padding: 10px;
+  border: 2px solid #373737;
+}
+.logo-wapp {
+  max-width: 20px;
+}
+.iframe {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.form {
+  margin-top: 10px;
+}
+.form label {
+  color: #676767;
+}
+.form input {
+  padding: 5px;
+  width: 400px;
+}
+.form-items li {
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+.button {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.footer {
+  background-color: #1b6b93;
+  min-height: 150px;
+  border-radius: 0px 0px 5px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #ffffff;
+}
+.footer-p p {
+  color: #ffffff;
+  text-align: center;
+  margin: 15%;
+}
+.footer h2 {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
